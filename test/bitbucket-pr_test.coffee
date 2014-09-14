@@ -12,5 +12,5 @@ describe 'bitbucket-pr', ->
 
     require('../src/bitbucket-pr')(@robot)
 
-  it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/hello/)
+  #it 'registers a respond listener', ->
+  #  expect(@robot.respond).to.have.been.calledWith(/hello/)

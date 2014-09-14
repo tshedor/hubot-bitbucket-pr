@@ -4,7 +4,7 @@
   "description": "Holler whenever anything happens around a Bitbucket pull request",
   "main": "./src/bitbucket-pr",
   "scripts": {
-    "test": "script/test"
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec"
   },
   "keywords": [
     "hubot",
@@ -14,7 +14,7 @@
     "slack"
   ],
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.7.1"
   },
   "devDependencies": {
     "mocha": "*",
