@@ -1,0 +1,27 @@
+{
+  "name": "hubot-bitbucket-pr",
+  "version": "0.1.0",
+  "description": "Holler whenever anything happens around a Bitbucket pull request",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "bitbucket",
+    "pull-request",
+    "slack"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.6",
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "author": "Tim Shedor <tshedor@gmail.com>",
+  "license": "MIT"
+}
