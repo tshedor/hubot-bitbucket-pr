@@ -4,7 +4,7 @@
   "description": "Holler whenever anything happens around a Bitbucket pull request",
   "main": "./src/bitbucket-pr",
   "scripts": {
-    "test": "test"
+    "test": "script/test"
   },
   "keywords": [
     "hubot",
@@ -17,8 +17,10 @@
     "coffee-script": "~1.6"
   },
   "devDependencies": {
-    "should": "~2.0.2",
-    "mocha": "~1.13.0"
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
   },
   "repository" : {
     "type" : "git",

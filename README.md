@@ -4,12 +4,13 @@ Holler whenever anything happens around a Bitbucket pull request
 
 ## Features
 
-* 
-* Pretty formatting for [Slack](https://github.com/tinyspeck/hubot-slack)
+* Notifies room when a pull request is created, commented, declined, merged, updated, approved or unapproved
+* Default room can be set with `HUBOT_BITBUCKET_PULLREQUEST_ROOM`
+* Pretty formatting if using the [Slack](https://github.com/tinyspeck/hubot-slack) adapter
 
 ## Installation
 
-In your hubot repository, run:
+In your hubot directory, run:
 
 `npm install hubot-bitbucket-pr --save`
 
